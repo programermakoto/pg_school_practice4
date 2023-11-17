@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+  background-color: rgb(143, 236, 236);
+}
+.box{
+  width: 310px;
+  height: 550px;
+  background-color: white;
+  text-align: center;
+  margin: 80px auto 0;
+  padding: 0;
+  position: relative;
+}
+video{
+  padding-top: 20px;
+}
+.inner{
+  width: 300px;
+  margin: 0 auto;
+  height: 100px;
+  overflow-y: scroll;
+  color:white;
+  background-color:rgb(143, 236, 236);
+  border: 1px solid black;
+}
+button{
+  width:150px;
+  height:40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 3px solid rgb(90, 177, 180);
+}
+.right{
+  position: absolute;
+  top: 0;
+  right: -50px;
+  background-color: fuchsia;
+  color: black;
+  width: 150px;
+  height: 60px;
+  border-radius: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-size:40px;
+  margin: 0;
+  padding: 0;
+}
